@@ -1,0 +1,38 @@
+.card-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center; 
+}
+.card-divider{
+    height: 130px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    background:#ffff;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cardH-img{
+    width: 700px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.heart{
+    align-items: center;
+}
+.cardH-text{
+    position: relative;
+    top: 70px;
+    right: 680px;
+    color: #ffff;
+    font-weight: bold;
+}
+.heart-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

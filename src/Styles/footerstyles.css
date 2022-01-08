@@ -1,0 +1,36 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-group{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    border-radius: 24px;
+}
+.rounded-link{
+    width: 60px;
+    height: 60px;
+    margin-left: 22px;
+    margin-right: 22px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none; 
+    transition: background 0.2s;
+    background: #FFFF; 
+}
+
+.fixed-footer{
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ margin-bottom: 25px;
+}

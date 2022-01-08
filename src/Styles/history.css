@@ -1,0 +1,23 @@
+body{
+    background: #F3F3F3;;
+}
+
+.favorite-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+}
+.favorite-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+.favorite-subtitle{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+    text-align: center;
+}

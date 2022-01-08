@@ -1,0 +1,50 @@
+body{
+    background: #F3F3F3;
+    font-family: 'DM Sans', sans-serif;
+}
+.row-container{
+   display: flex;
+   flex-direction: row;
+   margin: 5em;
+   justify-content: center;
+}
+.text-divider{  
+   width: 30%;
+   height: 550px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.img-divider{  
+   width: 70%;
+   height: 550px;
+    
+}
+.sport-img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.sub-title{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.login-button{
+    height: 66px;
+    width: 250px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: #FEFEFE;
+    background: linear-gradient(99deg, #236BFE 6.69%, #0D4ED3 80.95%);
+    box-shadow: 0px 4px 30px rgba(34, 105, 251, 0.8);
+    border-radius: 25px;
+    text-align: center;
+}
