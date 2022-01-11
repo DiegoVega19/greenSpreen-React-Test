@@ -9,7 +9,7 @@ const History = () => {
         <div className='favorite-container'>
             <span>
             <h2 className='favorite-title'>Favorite Meals</h2>
-            <p className='favorite-subtitle'>Swipe Left to delete your favorite meal</p>    
+            <p className='favorite-subtitle'>Drag and Drop to Groups your Meals</p>    
             </span>
          <CardsComponent mealName="Potato"></CardsComponent>   
          <CardsComponent mealName="Arroz"></CardsComponent> 
